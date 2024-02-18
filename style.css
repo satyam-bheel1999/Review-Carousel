@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.container{
+    position: relative;
+    left: 2.5%;
+    height: 100vh;
+    width: 95%;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+.title{
+    position: relative;
+    top: 15px;
+    width: 300px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.title h1{
+    font-size: 1.5rem;
+}
+.title .under-line{
+    height: 3px;
+    width: 50px;
+    background-color: navy;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+
+.main{
+    margin-bottom: 20px;
+    height: 500px;
+    width: 700px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    background-color: aliceblue;
+}
+
+.main .img img{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+
+}
+#name{
+    font-size: 25px;
+    margin: 10px;
+
+}
+#role{
+    font-size: 13px;
+    margin-bottom: 10px;
+    color: blue;
+}
+#info{
+    margin: 10px;
+    text-align: justify;
+    width: 600px;
+}
+.buttons{
+    margin-top: 25px;
+    width: 200px;
+}
+button{
+    height: 30px;
+    width: 80px;
+    margin-left: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: lime;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
